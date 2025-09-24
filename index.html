@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="SmartInventory.css" />
+    <title>Smart Inventory Manager</title>
+  </head>
+  <body>
+    <div class="inventory">
+      <div class="head">
+        <h2>Smart Inventory Manager</h2>
+        <p>Manage Your Products Easily</p>
+      </div>
+
+      <div class="inputs">
+        <input type="text" id="title" placeholder="Product Title" />
+        <div class="price">
+          <input
+            onkeyup="getTotal()"
+            type="number"
+            id="price"
+            placeholder="Price"
+          />
+          <input
+            onkeyup="getTotal()"
+            type="number"
+            id="ads"
+            placeholder="Ads"
+          />
+          <input
+            onkeyup="getTotal()"
+            type="number"
+            id="taxes"
+            placeholder="Taxes"
+          />
+          <input
+            onkeyup="getTotal()"
+            type="number"
+            id="discount"
+            placeholder="Discount"
+          />
+          <small id="total"></small>
+        </div>
+
+        <input type="number" id="count" placeholder="Count" />
+        <input type="text" id="category" placeholder="Category" />
+        <textarea id="description" placeholder="Description"></textarea>
+        <input
+          type="text"
+          id="imageUrl"
+          placeholder="Image URL (optional)"
+          oninput="previewImage()"
+        />
+        <div id="previewBox"><img id="previewImg" src="" alt="" /></div>
+
+        <button id="submit">Add Product</button>
+      </div>
+
+      <div class="stats">
+        <p>Total Items: <span id="totalItems">0</span></p>
+        <p>Total Value: $<span id="totalValue">0</span></p>
+      </div>
+
+      <div class="outputs">
+        <div class="searchBlock">
+          <input
+            type="text"
+            placeholder="Search"
+            id="search"
+            onkeyup="searchData(this.value)"
+          />
+          <div class="btnSearch">
+            <button onclick="getSearchMood(this.id)" id="searchTitle">
+              Search By Title
+            </button>
+            <button onclick="getSearchMood(this.id)" id="searchCategory">
+              Search By Category
+            </button>
+          </div>
+        </div>
+
+        <div class="extraBtns">
+          <button onclick="sortByPriceAsc()">Sort Price ↑</button>
+          <button onclick="sortByPriceDesc()">Sort Price ↓</button>
+          <button onclick="clearAll()">Clear All</button>
+        </div>
+
+        <div id="deleteAll"></div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Title</th>
+              <th>Price</th>
+              <th>Taxes</th>
+              <th>Ads</th>
+              <th>Discount</th>
+              <th>Total</th>
+              <th>Category</th>
+              <th>Description</th>
+              <th>Image</th>
+              <th>Update</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="SmartInventory.js"></script>
+  </body>
+</html>
