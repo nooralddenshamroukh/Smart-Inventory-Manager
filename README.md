@@ -27,6 +27,12 @@ This web app allows you to add, update, search, and manage products directly in 
 📽️ A walkthrough demo of the project is posted on my [LinkedIn profile](https://www.linkedin.com/in/your-linkedin-profile).  
 
 ---
+## 📂 Project Structure
+/index.html
+/SmartInventory.css
+/SmartInventory.js
+
+---
 
 ## 🛠️ Technologies Used
 - **HTML5**  
