@@ -38,4 +38,3 @@ This web app allows you to add, update, search, and manage products directly in 
 Developed by [Noor Aldden Shamroukh] – Computer Engineer
 ---
 
-## 📂 Project Structure
