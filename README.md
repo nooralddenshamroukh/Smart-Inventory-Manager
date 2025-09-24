@@ -20,7 +20,7 @@ This web app allows you to add, update, search, and manage products directly in 
 ---
 
 ## 🌍 Live Demo
-🔗 [Try the hosted version here](https://your-username.github.io/smart-inventory-manager/)  
+🔗 [Try the hosted version here](https://nooralddenshamroukh.github.io/Smart-Inventory-Manager/)  
 
 ---
 
