@@ -24,7 +24,7 @@ This web app allows you to add, update, search, and manage products directly in 
 ---
 
 ## 🎥 Project Video
-📽️ A walkthrough demo of the project is posted on my [LinkedIn profile](https://www.linkedin.com/in/your-linkedin-profile).  
+📽️ A walkthrough demo of the project is posted on my [LinkedIn profile](https://www.linkedin.com/posts/nooralddenshamroukh-90b866366_as-part-of-my-front-end-learning-journey-activity-7376506763245834240-0Mvk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFrlU5sB1U_BrxfGLTw8OtUqfvfvRR57zzM).  
 
 ---
 ## 📂 Project Structure
