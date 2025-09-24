@@ -35,6 +35,6 @@ This web app allows you to add, update, search, and manage products directly in 
 - **JavaScript (Vanilla)**  
 
 
-Developed by [Noor Aldden Shamroukh] – Computer Engineer
+Developed by [Eng.Noor Aldden Shamroukh] 
 ---
 
