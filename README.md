@@ -1,6 +1,6 @@
 # 🛒 Smart Inventory Manager
 
-A responsive inventory management system built using **HTML, CSS, and Vanilla JavaScript**.  
+An inventory management system built using **HTML, CSS, and Vanilla JavaScript**.  
 This web app allows you to add, update, search, and manage products directly in the browser with **local storage support** — no backend required.
 
 ---
@@ -14,7 +14,6 @@ This web app allows you to add, update, search, and manage products directly in 
 - ✅ Search by **title** or **category**  
 - ✅ Sort products by ascending/descending price  
 - ✅ Live product statistics: total items and total inventory value  
-- ✅ Responsive design for all devices  
 - ✅ Pure **HTML, CSS, and JS** (no frameworks or libraries)  
 
 ---
